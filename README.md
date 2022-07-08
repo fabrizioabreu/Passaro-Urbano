@@ -1,28 +1,75 @@
-# App2
+<div align="center">
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.0.
+# Aplicação Web - Pássaro Urbano
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/fabrizioabreu/bookstore-api/blob/master/LICENSE) 
 
-## Development server
+# Sobre o projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Uma aplicação web utilizando Angular 4 + Bootstrap + Tether
 
-## Code scaffolding
+A aplicação consistem em um sistema de catálago de venda de itens e produtos.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+</div>
+<div>
 
-## Build
+Neste exemplo utilizamos :
+* Services
+* @Injectable
+* Promises
+	* Síncrono
+	* Assíncrono
+* Observables
+* Rotas: Utilizamos <router-outlet> para navegar entre páginas
+* Parâmetros de rotas (Snapshot - Subscribe)
+* Rotas filhas
+* Recuperando parâmetros da rota parent (pai) nas rotas filhas
+* (Campo de pesquisa) Utilizado aproach assíncrono com programação reativa (rxjs observable)
+* Observables
+* Pipes
+* Formulário - Reactive Forms
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+</div>
+<div align="center">
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Layout web
 
-## Running end-to-end tests
+![Logo do Markdown](https://github.com/fabrizioabreu/assets/blob/master/PassaroUrbano/PassaroUrbano.gif)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+<p align="center">
+<img src="https://img.shields.io/badge/HTML%20-%23F7DF1E.svg?&style=for-the-badge&color=E34F26" />&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/css%20-%23F7DF1E.svg?&style=for-the-badge&color=5BA8EE" />&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Angular%20-%23F7DF1E.svg?&style=for-the-badge&color=DD0031" />&nbsp;&nbsp;
+</p>
 
-## Further help
+<p align="center">
+	<a href="https://github.com/fabrizioabreu"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
+	<a href="https://www.linkedin.com/in/fabrizio-abreu-88925587/"><img src="https://img.icons8.com/bubbles/50/000000/linkedin.png" alt="LinkedIn"/></a>
+	<a href="https://www.instagram.com/fabrizioabreuu/"><img src="https://img.icons8.com/bubbles/50/000000/instagram.png" alt="Instagram"/></a>
+</p>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# Ao longo do projeto, foram abordadas boas práticas, tais como:
+
+
+### Utilizado Json-Server para simular uma API para podemos consumir informações. 
+https://github.com/typicode/json-server
+
+
+### Comando para iniciar o Json-Server
+json-server --watch banco-de-dados.json
+  
+</div>
+
+
+# Tecnologias utilizadas
+- HTML / CSS 
+- Angular 13
+- Bootstrap
+
+# Autor
+
+Fabrizio Queiroz de Abreu
+
+
+
+
